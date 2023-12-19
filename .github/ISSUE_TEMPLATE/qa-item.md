@@ -9,12 +9,14 @@ assignees: ''
 
 Related Feature: #XXXX
 
-**Describe steps to see the problem or change needed for this Feature to pass QA:**
+### Link to example:
+
+### Steps to see the problem or change needed for this Feature to pass QA:
 
 - Go to ...
 - Click ...
 
-**Describe the Change needed:**
+### Change needed:
 
 
-**Paste Screenshots of the issue or solution**
+### Screenshots of the issue or solution
