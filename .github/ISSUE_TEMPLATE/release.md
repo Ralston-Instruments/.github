@@ -1,8 +1,8 @@
 ---
-name: Release
+name: Deploy
 about: Collection of issues to be released together from this repository
 title: Deploy repo_name [semver]
-labels: Release
+labels: Deploy
 assignees: ''
 
 ---
