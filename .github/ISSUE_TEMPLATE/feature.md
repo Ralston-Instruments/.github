@@ -3,6 +3,7 @@ name: Feature
 about: Feature designed for development
 title: ''
 labels: Feature
+type: Feature
 assignees: ''
 
 ---
