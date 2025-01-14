@@ -3,6 +3,7 @@ name: QA Item
 about: Fix needed or improvement to a Feature during QA
 title: ''
 labels: QA Item
+type: QA Item
 assignees: ''
 
 ---
