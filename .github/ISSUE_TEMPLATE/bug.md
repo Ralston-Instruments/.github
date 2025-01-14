@@ -3,6 +3,7 @@ name: Bug
 about: Report an issue witnessed in production
 title: ''
 labels: Bug
+type: Bug
 assignees: ''
 
 ---
