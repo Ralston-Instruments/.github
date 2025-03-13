@@ -1,0 +1,42 @@
+name: Feature
+description: Feature designed and ready for development.
+type: Request
+body:
+  - type: dropdown
+    id: issue-area
+    attributes:
+      multiple: true
+      label: Ralston Ecosystem Area
+      description: Select one or more areas to which this applies. Selecting these will automatically apply the appropriate labels and help with triage.
+      options:
+        - Console
+        - Customer.io
+        - Distributors App
+        - Gateway
+        - Portal Admin
+        - Portal App
+        - Products App
+        - Ralston Auth
+        - RalstonFieldLab.com
+        - RI Website
+        - Zoho CRM
+        - Zoho Desk
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: |
+        A clear and concise description of what you this feature is adding or changing. Please include:
+        - Any screenshots
+        - Any links to other issues, resources, or documentation
+        - Any other context that will help the team understand what's happening
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: |
+        What are the criteria that need to be met for this feature to be considered complete?
+
+        This is optional, but highly recommended.
