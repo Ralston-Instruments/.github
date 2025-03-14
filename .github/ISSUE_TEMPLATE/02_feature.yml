@@ -2,6 +2,33 @@ name: Feature
 description: Feature designed and ready for development.
 type: Request
 body:
+  - type: dropdown
+    id: issue-area
+    attributes:
+      multiple: true
+      label: Ralston Ecosystem Area
+      description: Select one or more areas to which this applies. Selecting these will automatically apply the appropriate labels and help with triage.
+      options:
+        - Console
+        - Customer.io
+        - Distributors App
+        - Mule Gateway
+        - Portal Admin
+        - Portal App
+        - Products App
+        - Ralston Auth
+        - RalstonFieldLab.com
+        - RI Website
+        - Zoho CRM
+        - Zoho Desk
+        - 'FieldLab API'
+        - 'FieldLab Web App'
+        - 'Firmware: FieldLab'
+        - 'Firmware: FieldLab Sensor'
+        - 'Firmware: LC Gauge'
+        - 'FieldLab Mobile App'
+        - 'FieldLab Desktop Windows App'
+        - 'Prime Windows App'
   - type: textarea
     id: requirements
     attributes:
