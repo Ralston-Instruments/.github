@@ -1,6 +1,6 @@
 name: Feature
 description: Feature designed and ready for development.
-type: Request
+type: Feature
 body:
   - type: dropdown
     id: issue-area
